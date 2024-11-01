@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-image: url('../images/banner/banner3.png');
+}
+
+.header-title {
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
