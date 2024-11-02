@@ -50,8 +50,8 @@ header {
 .previous {
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding: 100px 140px 100px 190px;
+    gap: 80px;
+    padding: 100px 240px 100px 190px;
     text-align: left;
 }
 
@@ -59,3 +59,23 @@ header {
     width: 420px;
     height: 523.3px;
 }
+
+.previous-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.previous-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343
+}
+
+.previous-banner li {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
