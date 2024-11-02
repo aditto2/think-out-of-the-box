@@ -41,3 +41,21 @@ header {
     font-weight: 600;
     font-size: 15px;
 }
+
+/* main section */
+
+
+/* previous section */
+
+.previous {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 140px 100px 190px;
+    text-align: left;
+}
+
+.previous-img {
+    width: 420px;
+    height: 523.3px;
+}
