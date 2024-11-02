@@ -20,14 +20,14 @@ header {
     font-size: 25px;
     text-align: right;
     color: #FFFFFF;
-    text-align: right;
+    text-align: left;
 }
 
 .header-description {
     text-align: right;
     font-weight: 400;
     font-size: 16px;
-    text-align: right;
+    text-align: left;
     color: #FFFFFF;
 }
 
@@ -36,8 +36,6 @@ header {
     border-radius: 5px;
     padding: 20px 30px;
     color: #005FAC;
-    position: absolute;
-    text-align: right;
     font-weight: 600;
     font-size: 15px;
 }
@@ -78,4 +76,7 @@ header {
     font-size: 16px;
     color: #444343;
 }
+
+/* my-plans-section */
+
 
