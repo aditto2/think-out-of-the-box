@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+}
+
+
 body {
     font-family: "Open Sans", serif;
     font-optical-sizing: auto;
@@ -29,6 +34,7 @@ header {
     font-size: 16px;
     text-align: left;
     color: #FFFFFF;
+    padding-bottom: 20px;
 }
 
 .btn-primary {
@@ -80,7 +86,7 @@ header {
 /* my-plans-section */
 
 .plans-container {
-    padding: 80px 200px 100px 250px;
+    padding: 50px 100px 100px 100px;
 }
 
 .my-plans-heading {
@@ -88,9 +94,11 @@ header {
     font-size: 40px;
     text-align: center;
     color: #151414;
+    padding-bottom: 0;
 }
 
 .my-plans {
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -115,4 +123,22 @@ header {
 
 
 /* background-section */
+
+.background {
+    text-align: left;
+    padding: 130px 130px;
+    margin: 0px 100px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 1040px; */
+    /* height: 300px; */
+    border-radius: 8px;
+}
+
+.background-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
 
