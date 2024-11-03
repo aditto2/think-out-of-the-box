@@ -79,17 +79,40 @@ header {
 
 /* my-plans-section */
 
-.plans-container{
-    padding: 100px 200px 100px 250px;
+.plans-container {
+    padding: 80px 200px 100px 250px;
 }
 
-.my-plans-heading{
-    padding-left: 370px;
-    padding-bottom: 80px;
+.my-plans-heading {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
 }
 
-.my-plans{
+.my-plans {
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
+
+.plan-img {
+    width: 92.96px;
+    height: 92.96px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+
+.plan-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+
+/* background-section */
+
