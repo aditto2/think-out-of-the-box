@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -16,13 +16,14 @@ header {
 }
 
 .header-banner {
-    padding: 200px 100px 300px 800px;
+    padding: 150px 100px 300px 800px;
 
 }
 
 .header-title {
+    padding-bottom: 30px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 40px;
     text-align: right;
     color: #FFFFFF;
     text-align: left;
@@ -68,9 +69,11 @@ header {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
+    padding-bottom: 20px;
 }
 
 .previous-description {
+    padding-bottom: 25px;
     font-weight: 400;
     font-size: 16px;
     color: #444343
@@ -98,13 +101,14 @@ header {
 }
 
 .my-plans {
-    padding-top: 40px;
+    padding-top: 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
 .plan-img {
+    margin-bottom: 20px;
     width: 92.96px;
     height: 92.96px;
 }
@@ -113,6 +117,7 @@ header {
     font-weight: 700;
     font-size: 20px;
     color: #151414;
+    padding-bottom: 20px;
 }
 
 .plan-subtitle {
@@ -138,8 +143,69 @@ header {
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
+    padding-bottom: 30px;
+    padding-right: 50px;
 }
 
 /* footer start */
 
+footer {
+    display: flex;
+    background: #151414;
+    padding: 130px 230px;
+    gap: 200px;
+}
 
+.future {
+    color: #F8F8F8;
+}
+
+.future-title {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.future img {
+    margin: 6px;
+}
+
+.future .img img {
+    padding-top: 30px;
+    width: 26px;
+    height: 26px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+input {
+    padding: 20px 50px 20px 20px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+input:focus {
+    color: #FFFFFF;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    background-color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+}
